@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+	<title>sorting</title>
+	{% load static %}
+	<link rel="stylesheet" href=" {%static 'data/home.css' %} "/>
+    </head>
+<body background="{% static 'data/dark-bg.jpg' %}" text="white">
+	<h1 align="center"><B>LSGD - Individual Eligibility Index</B></h1>
+	<h3 align="center">Filter Search</h3>
+
+<form method="POST" action="/datasearch2">
+	{% csrf_token %}
+<table cellpadding="6" cellspacing="2">
+
+<tr>
+    <td>
+Country&nbsp;&nbsp;&nbsp;&nbsp;
+<select id="country" style="height:22px;width:222px;" name="country">
+</select>
+</td></tr><tr><td></td></tr><br><br><br>
+<tr>
+<td>
+State&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<select id="state" style="height:22px;width:222px;" name="state">
+</select></td></tr><tr><td></td></tr>
+<tr><td>
+District&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<select id="district" style="height:22px;width:222px;" name="district">
+</select></td></tr><tr><td></td></tr>
+<tr><td>
+
+Taluk&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="taluk" style="height:20px;width:217px;">
+</td></tr><tr><td></td></tr>
+<tr><td>
+Village&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="village" style="height:20px;width:217px;"></td></tr><tr><td></td></tr>
+<tr><td>
+Sector&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<select name="sector" id="sector" style="height:23px;width:222px;">
+  </select></td></tr><tr><td></td></tr>
+  <tr><td>
+	Scheme&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<select name="scheme" id="scheme" style="height:23px;width:222px;">
+	  </select></td></tr><tr><td></td></tr>
+</table><br><br>
+<input type="submit" value="Submit" name="submit" style="height:30px; width:120px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="reset" value="Reset" name="reset" style="height:30px; width:120px">
+</form>
+{% load static %}
+<script src=" {%static 'data/jquery-2.2.4.min.js' %} "></script>
+<script src=" {%static 'data/custom.js' %} "></script>
+<script src=" {%static 'data/home.js' %} "></script>
+</body>
+</html>
