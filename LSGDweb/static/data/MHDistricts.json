@@ -1,0 +1,72 @@
+[
+
+{
+  "name":"Alappuzha",
+  "tahasil" :  ["Ambalapuzha" ,"Chengannur" , "Cherthala", "Karthikappally", "Kuttanad", "Mavelikkara" ]
+},
+
+{
+  "name":"Ernakulam",
+  "tahasil":[ "Aluva", "Kanayannur", "Kochi", "Kothamangalam", "Kunnathunad", "Muvattupuzha", "North Paravur" ]
+},
+{
+"name":"Idukki",
+"tahasil":[ "Devikulam", "Peermade", "Udumbanchola", "Idukki", "Thodupuzha" ]
+},
+
+{
+  "name":"Kannur",
+"tahasil":[ "Thalassery", "Iritty", "Kannur", "Thalipparamb", "Payyanur" ]
+},
+
+{
+  "name":"Kasargod",
+"tahasil":[ "Manjeshwaram", "Kasaragod", "Vellarikundu", "Hosdurg" ]
+},
+
+{
+  "name":"Kollam",
+"tahasil":[ "Kollam", "Karunagappally", "Kunnathur", "Kottarakkara", "Punalur", "Pathanapuram" ]
+},
+
+{
+  "name":"Kottayam",
+"tahasil":[ "Changanassery", "Kanjirappally", "Kottayam", "Vaikom", "Meenachil" ]
+},
+
+{
+  "name":"Kozhikode",
+"tahasil":[ "Kozhikode", "Thamarassery", "Koyilandy", "Vatakara" ]
+},
+
+{
+  "name":"Malappuram",
+"tahasil":[ "Nilambur", "Manjery", "Kongotty", "Perinthalmanna", "Ponnani", "Tirur", "Tirurangadi" ]
+},
+
+{
+  "name":"Palakkad",
+"tahasil":[ "Alathur", "Chittur", "Palakkad", "Pattambi", "Ottappalam", "Mannarkkad" ]
+},
+
+{
+  "name":"Pathanamthitta",
+"tahasil":[ "Adoor", "Konni", "Kozhencheri", "Ranni", "Malappally", "Thiruvalla" ]
+},
+
+{
+  "name":"Thiruvananthapuram",
+"tahasil":[ "Neyyattinkara", "Kattakada", "Nedumangad", "Thiruvananthapuram", "Chirayinkeezhu", "Varkala" ]
+},
+
+{
+  "name":"Thrissur",
+"tahasil":[ "Kodungallur", "Mukundapuram", "Chalakudy", "Chavakkad","Thalapilly", "Thrissur", "Kunnamkulam" ]
+},
+
+{
+  "name":"Wayanad",
+"tahasil":[ "Mananthavady", "Sulthan Bathery", "Vythiri" ]
+}
+
+ ]
