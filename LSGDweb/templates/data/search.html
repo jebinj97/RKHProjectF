@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Search</title>
+
+</head>
+{% csrf_token %}
+{%load static%}
+
+<body background="{% static 'data/dark-bg.jpg' %}" text="black">
+
+	<div id="header">
+
+		<form id="export" method="get" action="">
+      <input type="button" value="export" name="export">
+		</form>
+  </div>
+
+  <table align="center" cellpadding="3" cellspacing="5" style="background-color: white;">
+    <tr>
+    <th>Points:</th>
+    <th>UID</th>
+    <th>Name</th>
+    <th>Age</th>
+   <th> Gender </th>
+      </tr>
+      {% for i,x in toSend %}
+
+      <tr>
+          <td>{{x.educational_scheme}}</td>
+          <td>{{i.uid_id}}</td>
+          <td>{{i.name}}</td>
+          <td>{{i.gender}}</td>
+          <td>{{i.age}}</td>
+      </tr>
+
+      {% endfor %}
+      </table>
+</body>
+</html>
