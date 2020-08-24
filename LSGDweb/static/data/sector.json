@@ -1,0 +1,8 @@
+[ 
+    {"name": "Education", "code": "E"}, 
+    {"name": "Housing", "code": "H"}, 
+    {"name": "Medical", "code": "M"}, 
+    {"name": "Land", "code": "L"}, 
+    {"name": "Water", "code": "W"}, 
+    {"name": "Finance", "code": "F"} 
+]
